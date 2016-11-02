@@ -1,0 +1,4 @@
+﻿  Enter_Name.c
+c:\users\conan\work\coding\c\src\enter_name.c(9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+  Enter_Name.vcxproj -> C:\Users\conan\Work\Coding\C\proj\Enter_Name\Debug\Enter_Name.exe

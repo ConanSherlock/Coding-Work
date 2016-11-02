@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1473717910 source:c:\users\conan\work\coding\projects\test\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+

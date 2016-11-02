@@ -1,0 +1,6 @@
+﻿  guessing_game.c
+c:\users\conan\work\coding\c\src\guessing_game.c(18): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+c:\users\conan\work\coding\c\src\guessing_game.c(25): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+  guessing_game.vcxproj -> C:\Users\conan\Work\Coding\Projects\guessing_game\Debug\guessing_game.exe

@@ -1,0 +1,4 @@
+﻿  palindrome.c
+c:\users\conan\work\coding\c\palindrome.c(11): warning C4101: 'i' : unreferenced local variable
+c:\users\conan\work\coding\c\palindrome.c(31): warning C4013: 'toupper' undefined; assuming extern returning int
+  palindrome.vcxproj -> C:\Users\conan\Work\Coding\Projects\palindrome\Debug\palindrome.exe
