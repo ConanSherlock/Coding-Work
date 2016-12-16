@@ -1,18 +1,18 @@
 <?php include 'database.php'; ?>
 <?php
-	// Create Select Query
-	$query = "SELECT * FROM shouts ORDER BY id DESC";
-	$shouts = mysqli_query($con, $query);
+    // Create Select Query LIMIT 9
+    $query = "SELECT * FROM shouts ORDER BY id DESC";
+    $shouts = mysqli_query($con, $query);
 ?>
 <!DOCTYPE html>
 <html>
     <header>
         <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
         <meta content="utf-8" http-equiv="encoding">
-        
+
         <title>JS Shoutbox</title>
         <link rel="stylesheet" href="css/style.css">
-		
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/script.js"></script>
     </header>

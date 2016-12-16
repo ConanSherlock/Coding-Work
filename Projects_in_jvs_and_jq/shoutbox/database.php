@@ -1,6 +1,6 @@
 <?php
 // Connect to MySQL
-$con = mysqli_connect("localhost","root","password here","jsshoutbox");
+$con = mysqli_connect("localhost","root","db_password_here","jsshoutbox");
 
 if(mysqli_connect_errno()){
     echo 'Failed to connect: '.mysqli_connect_error();

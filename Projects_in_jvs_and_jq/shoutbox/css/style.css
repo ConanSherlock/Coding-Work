@@ -28,6 +28,7 @@ header{
     border:#333 1px solid;
     margin:30px;
     padding:15px;
+    overflow-y: scroll;
 }
 
 #shouts li{
