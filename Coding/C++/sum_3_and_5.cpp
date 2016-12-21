@@ -5,20 +5,20 @@
 using namespace std;
 
 int main(){
-	int n,sum,i;
+    int n,sum,i;
 
-	sum = 0;
+    sum = 0;
 
-	cout<<"Hello user please enter the number n to sum up to: ";
-	cin>>n;
+    cout<<"Hello user please enter the number n to sum up to: ";
+    cin>>n;
 
-	for (i = 0; i <= n; i++){
-		if ((i%3 == 0) && (i%5 == 0)){
-			sum = sum + i;
-		}
-	}
+    for (i = 0; i <= n; i++){
+        if ((i%3 == 0) && (i%5 == 0)){
+            sum = sum + i;
+        }
+    }
 
-	cout<<"The sum of the numbers 1 to " << n << " is: " << sum << " \n";
+    cout<<"The sum of the numbers 1 to " << n << " is: " << sum << " \n";
 
-	return 0;
+    return 0;
 }

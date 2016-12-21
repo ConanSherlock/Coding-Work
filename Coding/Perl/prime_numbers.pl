@@ -1,4 +1,4 @@
-
+# Prints the prime numbers from 1 to 100
 $flag = 0;
 $num = 2;
 print "The prime numbers are \n";

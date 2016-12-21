@@ -1,3 +1,4 @@
+# Checks if a string is a palindrome or not
 sub palindrome(){
     my ($str) = (@_ );
     if (lc $str eq  lc(reverse($str))){

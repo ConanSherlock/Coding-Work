@@ -1,3 +1,4 @@
+# Prints the next 20 leap years
 import time
 
 year = int(time.strftime("%Y"))+1

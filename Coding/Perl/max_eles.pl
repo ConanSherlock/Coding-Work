@@ -1,3 +1,4 @@
+# Finds the element in the array that has the maximum value
 sub max_ele(){
     my @param=@_;
     my $k = 0;

@@ -1,3 +1,4 @@
+# Finds the max value element in an array
 import operator
 
 def max_eles ( eles ):

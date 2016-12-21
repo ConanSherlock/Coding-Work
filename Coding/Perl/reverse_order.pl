@@ -1,3 +1,4 @@
+# Reverses the order of an an array and prints the array at the start and the end
 sub reverse_ele(){
     my @param=@_;
     my $size=@param;

@@ -1,3 +1,4 @@
+# Checks if a certain numerical element is in the array
 sub check_ele(){
     my (@param)=@{$_[0]};
     my $check = $_[1];

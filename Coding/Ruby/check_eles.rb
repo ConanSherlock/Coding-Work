@@ -1,3 +1,4 @@
+# Checks to see if a value is in the array
 def check_ele(eles,check)
     if eles.include? check
         print "#{check} is in the list!\n"
