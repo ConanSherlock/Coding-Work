@@ -1,3 +1,4 @@
+# Finds the prime numbers from 1 to 100
 for num in range(2,100):
     flag = 0
     

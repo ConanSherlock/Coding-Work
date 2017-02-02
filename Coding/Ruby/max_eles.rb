@@ -1,3 +1,4 @@
+#Finds the max value element in the array
 def max_ele(eles)
     puts eles.max
 end

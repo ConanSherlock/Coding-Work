@@ -1,3 +1,5 @@
+# This is a guessing game to find the value of a random number between 1 and 100. The game will tell your current guess number and whether your guess was too high or low
+
 puts "Hello user! This is a game to guess the number between 1 and 100.\n"
 number = rand(1..100)
 repeat = 'y'

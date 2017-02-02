@@ -1,3 +1,4 @@
+# Different loops for summing numbers
 def for_loop( eles ):
     sum = 0
     

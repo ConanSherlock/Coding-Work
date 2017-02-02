@@ -1,3 +1,4 @@
+# Checks to see if a string is palindrome
 def is_palindrome(string):
     if(string.upper() == string[-1::-1].upper()):
         print ''.join([string,": is a palindrome\n"])

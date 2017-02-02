@@ -1,3 +1,4 @@
+# Prints the elements in the odd indices of an array
 def odd_eles ( eles ):
     print ''.join(["The odd values are ", str(eles[1::2])])
 

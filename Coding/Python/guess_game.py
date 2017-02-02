@@ -1,3 +1,4 @@
+# A guessing game where you guess a number from 1 to 100. The game will tell you if you guess too high or too low and your number of guesses
 import random
 
 check = 'y'

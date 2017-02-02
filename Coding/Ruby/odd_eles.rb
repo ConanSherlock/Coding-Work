@@ -1,3 +1,5 @@
+# Prints the elements in the odd numbered indexes of the array
+
 def odd_ele(eles)
     print "The odd elements are "
     for i in eles.values_at(* eles.each_index.select {|j| j.odd?})
