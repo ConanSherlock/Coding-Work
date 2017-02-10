@@ -13,7 +13,7 @@ def merged_and_sorted(array_1, array_2)
         i += 1                                              
     end
     print merged_array.inspect
- end
+end
 
 list1 = [1,4,6]
 list2 = [2,3,5]

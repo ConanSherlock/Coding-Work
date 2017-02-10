@@ -10,9 +10,14 @@ sub check_ele(){
     my (@param)=@{$_[0]};
     my $check = $_[1];
     my $size=@param;
+    my $flag=0;
     for($i=0;$i<$size;$i++){
         if($param[$i]==$check){
             print "$check is in the list!\n";
+            $flag=1;
         }
+    }
+    if ($flag==0){
+        print "$check is not in the list!\n";
     }
 }
