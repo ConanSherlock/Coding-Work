@@ -1,3 +1,4 @@
+# Calculates the total sum of an array and gives the other to the user at each sum
 sub running_total(){
     my (@param)=@{$_[0]};
     my $size=@param;

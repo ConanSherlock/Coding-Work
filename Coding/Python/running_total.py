@@ -1,3 +1,4 @@
+# Sums up the total of numbers in an array and prints the value at each iteration
 def running_total ( eles ):
     sum = 0
     for n in eles:

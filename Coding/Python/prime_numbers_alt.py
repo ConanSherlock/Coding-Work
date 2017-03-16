@@ -1,3 +1,4 @@
+# Another method of finding the prime numbers from 1 to 100
 import operator
 
 for num in range(2,10000):

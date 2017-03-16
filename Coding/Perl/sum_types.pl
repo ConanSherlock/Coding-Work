@@ -1,3 +1,4 @@
+# Program with different ways to loop to sum an array
 use List::Util qw(reduce);
 sub for_loop(){
     my (@param)=@{$_[0]};

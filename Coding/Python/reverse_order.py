@@ -1,3 +1,4 @@
+# Prints the elements in an array and then reverses the array and prints the elements
 def reverse_eles ( eles ):
     return  eles[::-1]
 

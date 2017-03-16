@@ -5,14 +5,14 @@
 using namespace std;
 
 int main(){
-	int n,i;
+    int n,i;
 
-	cout<<"Hello user, please enter the number n: ";
-	cin>>n;
+    cout<<"Hello user, please enter the number n: ";
+    cin>>n;
 
-	for (i = 1; i <= 12; i++){
-		cout<< n << "\tx\t" << i << "\t=\t" << n*i << "\n";
-	}
+    for (i = 1; i <= 12; i++){
+        cout<< n << "\tx\t" << i << "\t=\t" << n*i << "\n";
+    }
 
-	return 0;
+    return 0;
 }

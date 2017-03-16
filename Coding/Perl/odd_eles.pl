@@ -1,3 +1,4 @@
+# Prints the values in the odd numbered indices of the array
 sub odd_ele(){
     my (@param)=@{$_[0]};
     my $size=@param;

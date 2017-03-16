@@ -1,3 +1,5 @@
+# Checks if a word is a palindrome
+
 def palindrome(str)
     if str.downcase == str.reverse.downcase
         print "#{str} is a palindrome\n"

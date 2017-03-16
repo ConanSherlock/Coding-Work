@@ -1,3 +1,4 @@
+# Prints the current total as the loop sums through the array
 def running_total(eles)
     sum = 0
     print "#{eles.map{|x| sum += x}}\n"

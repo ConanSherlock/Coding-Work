@@ -1,0 +1,19 @@
+body{
+    text-align:center;
+}
+
+ul{
+    display:block;
+}
+
+#stats{
+    
+}
+
+.controls{
+    float:right;
+}
+
+#stats p{
+    color:red;
+}
