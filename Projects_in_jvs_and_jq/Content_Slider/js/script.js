@@ -1,8 +1,8 @@
 $(document).ready(function(){
     // Set Options/Vars
     var speed = 500;                 //fade speed
-    var autoswitch = true;           // auto slider option
-    var autoswitch_speed = 4000;     // auto slider speed
+    var autoswitch = false;           // auto slider option
+    var autoswitch_speed = 5000;     // auto slider speed
 
     // Add initial active class
     $('.slide').first().addClass('active');
@@ -24,10 +24,10 @@ $(document).ready(function(){
    // Switch to next slide
     function nextSlide(){
         $('.active').removeClass('active').addClass('oldActive');
-        if($('.oldActive').is(':first-child')){
-            $('.slide').last().addClass('active');
+        if($('.oldActive').is(':last-child')){
+            $('.slide').first().addClass('active');
         } else {
-            $('.oldActive').prev().addClass('active');
+            $('.oldActive').next().addClass('active');
         }
         $('.oldActive').removeClass('oldActive');
         $('.slide').fadeOut(speed);
