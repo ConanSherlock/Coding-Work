@@ -1,4 +1,4 @@
-# Adds, subtracts and multiplies numbers in different number bases and creates a digit-list representation of them
+# Adds, subtracts and multiplies numbers in different number bases and creates a base-list representation of them
 #!/usr/bin/ruby
 require 'pry'
 
