@@ -1,4 +1,8 @@
 # Calculates the total sum of an array and gives the other to the user at each sum
+my @elements = (1,2,3,4,5,6,7,8,9,10);#(5,15,23,68,91,12,35,46,81,3,12345,100,513,214,79,651,5,17,54,89);
+@sums = running_total(\@elements);
+print "@sums\n";
+
 sub running_total(){
     my (@param)=@{$_[0]};
     my $size=@param;
@@ -9,7 +13,3 @@ sub running_total(){
     }
     return @sums;
 }
-
-my @elements = (1,2,3,4,5,6,7,8,9,10);#(5,15,23,68,91,12,35,46,81,3,12345,100,513,214,79,651,5,17,54,89);
-@sums = &running_total(\@elements);
-print "@sums\n";
